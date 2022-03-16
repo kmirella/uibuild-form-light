@@ -4,9 +4,25 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=EB+Garamond&family=Montserrat:wght@500&display=swap" rel="stylesheet">
 	<title>This is FRONTEND</title>
 </head>
 <body>
-	<div id="root"></div>
+	<div id="root">
+		<div class="container">
+			<h1>Visszajelzés</h1>
+			<div class="inputField">
+				<input type="text" placeholder="Tárgy" class="input1">
+				<textarea placeholder="Megjegyzés"></textarea>
+				<p><input type="checkbox" class="accept" required/>Elolvastam és elfogadom az Adatkezelési Tájékoztatót.</p>
+			</div>
+			<div>
+				<button class="btn">Mentés</button>
+			</div>
+		</div>
+	</div>
 </body>
 </html>

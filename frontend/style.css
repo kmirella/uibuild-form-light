@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: none;
+    box-sizing: border-box;
+    background: transparent;
+    font-family: inherit;
+  }
+  a {
+    text-decoration: none;
+  }
+  a img {
+    border: none;
+  }
+  
+  button,
+  a {
+    cursor: pointer;
+    color: inherit;
+  }
+  
+  textarea {
+    resize: none;
+  }
+  
+  button,
+  textarea,
+  select {
+    appearance: none !important;
+    border-radius: 0;
+  }
+  
+  /* END OF CSS RESET */
+
+  body {
+    width: 100%;
+    height: 100vh;
+    background-color: #f7e4d4;
+  }
+
+  #root {
+      position: relative;
+      /*top: 50%;*/
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 20px;
+  }
+
+  .container {
+      padding: 20px;
+      margin-bottom: 20px;
+      /* display: flex;
+      justify-content: center; 
+      align-items: center; */
+  }
+
+  h1 {
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+      font-family: 'EB Garamond', serif;
+      font-weight: normal;
+      color: #467745;
+      font-size: 48px;
+      z-index: 1;
+  }
+
+  @media screen and (min-width: 320px) {
+    h1 {
+      font-size: 36px;
+    }
+  }
+
+  @media screen and (max-width: 520px) {
+    h1 {
+      text-align: left;
+    }
+  }
+
+  .inputField {
+    position: relative;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .input1 {
+      position: absolute;
+      /*display: block;
+      margin: 0 auto;*/
+      max-width: 480px;
+      height: 64px;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: medium;
+      font-size: 16px;
+      color: #467745;
+      background-color: #fff;
+      margin-bottom: 20px;
+  }
+
+  @media screen and (max-width: 520px) {
+
+  }
+
+  textarea {
+      position: absolute;
+      top: 100px;
+      max-width: 480px;
+      height: 120px;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 16px;
+      font-weight: medium;
+      color: #467745;
+      background-color: #fff;
+  }
+  
+  .accept {
+    /*position: absolute;*/
+    }
+
+  p {
+      /*position: absolute;
+      top: 0;*/
+      font-family: 'Montserrat', sans-serif;
+      font-weight: medium;
+      font-size: 16px;
+      color: #467745;
+      z-index: 2;
+  }
+
+  .btn {
+      position: absolute;
+      top: 200px;
+      max-width: 280px;
+      display: inline-block;
+      left: 45%;
+      transform: translateX(-45%)
+      height: 80px;
+      font-family: 'EB Garamond', serif;
+      font-weight: normal;
+      font-size: 21px;
+      text-align: center;
+      letter-spacing: 0.2em;
+      padding: 15px 45px;
+      background-color: #467745;
+      color: #f7e4d4;
+      border-radius: 30px;
+      text-transform: uppercase;
+  }
+
+  
+
